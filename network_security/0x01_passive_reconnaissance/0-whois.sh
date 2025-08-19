@@ -1,2 +1,2 @@
 #!/bin/bash
-whois $1 | awk -F: '/Registrant|Admin|Tech/ {print $1 "," $2}'
+whois $1 | awk -F': ' '/^(Registrant|Admin|Tech) (Organization|State\/Province|Country|Email):/ {print $1 "," $2}'
