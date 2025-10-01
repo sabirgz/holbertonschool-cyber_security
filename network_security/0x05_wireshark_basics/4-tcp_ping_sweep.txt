@@ -1,0 +1,1 @@
+ip.src == <MY_IP> && tcp && ( (tcp.flags.syn==1 && tcp.flags.ack==0) || (tcp.flags.ack==1 && tcp.flags.syn==0) )
