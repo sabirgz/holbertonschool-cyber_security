@@ -1,1 +1,1 @@
-ip.addr==10.8.0.91 and icmp.type == 8 and icmp.code == 0
+ip.addr==10.8.0.91 and (icmp.type == 8 or icmp.type == 0)
